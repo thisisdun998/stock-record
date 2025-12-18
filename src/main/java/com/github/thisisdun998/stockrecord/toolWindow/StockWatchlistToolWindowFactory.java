@@ -35,7 +35,7 @@ public final class StockWatchlistToolWindowFactory implements ToolWindowFactory 
 
     @Override
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
-        toolWindow.setIcon(StockRecordIcons.TOOL_WINDOW);
+//        toolWindow.setIcon(StockRecordIcons.TOOL_WINDOW);
         StockWatchlistPanel panel = new StockWatchlistPanel(project);
         Content content = ContentFactory.getInstance().createContent(panel.getComponent(), "", false);
         toolWindow.getContentManager().addContent(content);

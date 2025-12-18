@@ -4,8 +4,7 @@ public enum StockIndex {
 
     SHANGHAI("上证指数", "s_sh000001"),
     SHENZHEN("深证指数", "s_sz399001"),
-    CHINEXT("创业板指", "s_sz399006"),
-    HSTECH("恒生科技", "s_hkHSTECH");
+    CHINEXT("创业板指", "s_sz399006");
 
     private final String displayName;
     private final String sinaCode;

@@ -12,6 +12,7 @@
         <toolWindow
                 id="Stock Record"
                 anchor="right"
+                icon="/icon/pluginIcon_dark.svg"
                 factoryClass="com.github.thisisdun998.stockrecord.toolWindow.StockWatchlistToolWindowFactory"/>
         <projectService
                 serviceImplementation="com.github.thisisdun998.stockrecord.persistence.StockWatchlistStateService"/>
