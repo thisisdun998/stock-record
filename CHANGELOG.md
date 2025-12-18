@@ -1,7 +1,6 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
-
-# stock-record Changelog
-
-## [Unreleased]
+## [1.0.0]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- 初始版本发布
+- 支持沪深A股实时行情查看
+- 自选股管理功能
+- 大盘指数展示

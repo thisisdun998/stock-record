@@ -134,6 +134,11 @@ tasks {
     publishPlugin {
         dependsOn(patchChangelog)
     }
+
+    patchPluginXml {
+        sinceBuild.set("222")
+        untilBuild.set("252.*")
+    }
 }
 
 intellijPlatformTesting {
